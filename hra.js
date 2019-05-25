@@ -674,6 +674,7 @@ Game.World = function(friction = 0.85, gravity = 2) {
   this.player    = new Game.Player(32, 76);
 
   this.zone_id   = "01";// The current zone.
+  this.zone_id   = "00";// The current zone.
 
   this.doors     = [];// The array of doors in the level.
   this.door      = undefined; // If the player enters a door, the game will set this property to that door and the level will be loaded.
