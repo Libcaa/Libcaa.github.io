@@ -3,7 +3,7 @@ window.addEventListener("load", function(event) {
 
   "use strict";
 
-  const ZONE_PREFIX = "mapa";
+  const ZONE_PREFIX = "zone";
   const ZONE_SUFFIX = ".json"
 
   const AssetsManager = function() {
