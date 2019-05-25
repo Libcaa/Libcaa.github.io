@@ -673,7 +673,6 @@ Game.World = function(friction = 0.85, gravity = 2) {
   this.tile_set  = new Game.TileSet(8, 16);
   this.player    = new Game.Player(32, 76);
 
-  this.zone_id   = "01";// The current zone.
   this.zone_id   = "00";// The current zone.
 
   this.doors     = [];// The array of doors in the level.
