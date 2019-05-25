@@ -4,7 +4,7 @@ window.addEventListener("load", function(event) {
   "use strict";
 
   const ZONE_PREFIX = "zone";
-  const ZONE_SUFFIX = ".json"
+  const ZONE_SUFFIX = ".json";
 
   const AssetsManager = function() {
 
@@ -114,7 +114,7 @@ window.addEventListener("load", function(event) {
   var game = new Game();
   var engine = new Engine(1000/30, render, update);
 
-
+ /*INICIALIZACE*/
   display.buffer.canvas.height = game.world.height;
   display.buffer.canvas.width = game.world.width;
   display.buffer.imageSmoothingEnabled = false;

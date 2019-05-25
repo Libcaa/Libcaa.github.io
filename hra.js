@@ -422,6 +422,8 @@ Game.Collider.prototype = {
 
 };
 
+Game.Frame.prototype = { constructor: Game.Frame };
+
 
 /* The object class is just a basic rectangle with a bunch of prototype functions
 to help us work with positioning this rectangle. */
@@ -608,7 +610,6 @@ Game.Player.prototype = {
     this.y_old = this.y;
 
     this.velocity_y += gravity;
-
     this.velocity_x *= friction;
 
     if (Math.abs(this.velocity_x) > this.velocity_max)
