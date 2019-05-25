@@ -21,7 +21,7 @@ window.addEventListener("load", function(event) {
 
       let request = new XMLHttpRequest();
 
-      request.addEventListener("load", function(event) {
+      request.addEventListener("LOAD", function(event) {
 
         callback(JSON.parse(this.responseText));
 
@@ -36,7 +36,7 @@ window.addEventListener("load", function(event) {
 
       let image = new Image();
 
-      image.addEventListener("load", function(event) {
+      image.addEventListener("LOAD", function(event) {
 
         callback(image);
 
